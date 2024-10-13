@@ -24,7 +24,8 @@ fun withDefaultParameter(name: String = "Indra", age: Int){
 
 }
 
-fun withReturn(panjang : Int, lebar : Int) : Int{
-    return println(panjang * lebar)
+fun withReturn(panjang : Int, lebar : Int) {
+    return println("$panjang, $lebar")
 }
+
 
